@@ -1,3 +1,7 @@
+#! /usr/bin/env node
+
+'use strict'
+
 var extractor = require('unfluff'),
     request = require('request'),
     say = require('say')
