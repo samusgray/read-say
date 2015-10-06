@@ -13,5 +13,8 @@
     "request": "^2.64.0",
     "say": "^0.6.0",
     "unfluff": "^0.11.0"
-  }
+  },
+  "bin": {
+    "read-say": "bin/read-say.js"
+   }
 }
