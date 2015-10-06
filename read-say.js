@@ -4,12 +4,15 @@
 
 var extractor = require('unfluff'),
     request = require('request'),
-    say = require('say')
+    say = require('say'),
+    argv = require('minimist')(process.argv.slice(2))
 
-request(process.argv[2], function (error, response, body) {
+var voice = argv['v'] || null
+
+request(argv['_'][0], function (error, response, body) {
   if (!error && response.statusCode === 200) {
     var data = extractor(body)
-    say.speak(null, data.text)
+    say.speak(voice, data.text)
   } else {
     console.log(error)
   }
