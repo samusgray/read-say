@@ -12,6 +12,14 @@ npm install -g read-say
 read-say "http://hellometa.com/code/2014/12/18/test-drive-sass-with-true.html"
 ```
 
+## Speed Control
+
+If you want to increase the playback speed, just use the `-r` flag.
+
+```
+read-say "http://hellometa.com/code/2014/12/18/test-drive-sass-with-true.html" -r 300
+```
+
 ## Voices Flag
 If you don't like the default voice, you can use the `-v` flag to choose
 from any of the following.
