@@ -1,6 +1,6 @@
 {
   "name": "read-say",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "CLI helps you listen to anything on the web.",
   "main": "index.js",
   "scripts": {
